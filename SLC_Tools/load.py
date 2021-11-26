@@ -7,7 +7,7 @@ from datetime import datetime
 import db
 
 # Open the workbook and define the worksheet
-filename = r"C:/Ruta/donde/esta/archivo/SCRUM/archivo.xls"
+filename = r"C:/Users/saman/OneDrive/Documentos/SCRUM/23112021/23112021_SLC.xls"
 if not os.path.exists(filename):
     print("No encontré el archivo")
     sys.exit()
@@ -79,7 +79,7 @@ for row in range(0, sheet.nrows):
     values = (email, name, last_name, id_C, today_date)
     cursor.execute(query, values)
 
-    today_date_N = today_date + "_WTEST" #Se coloca W seguido de la fecha del webinar(EJ:2311)
+    today_date_N = today_date + "_W2311" #Se coloca W seguido de la fecha del webinar(EJ:2311)
 
     query_1 = """INSERT INTO SLC_webinar (id_webinar, webinar, date) SELECT %s, %s, %s WHERE NOT EXISTS (SELECT * FROM SLC_webinar WHERE webinar = '"""+webinarComparar +"""')"""
     values_1 = (today_date_N, webinar, date)
