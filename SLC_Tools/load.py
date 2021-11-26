@@ -7,7 +7,7 @@ from datetime import datetime
 import db
 
 # Open the workbook and define the worksheet
-filename = r"C:/Users/saman/OneDrive/Documentos/SCRUM/23112021/23112021_SLC.xls"
+filename = r"C:/Ruta/donde/esta/archivo/SCRUM/archivo.xls"
 if not os.path.exists(filename):
     print("No encontré el archivo")
     sys.exit()
