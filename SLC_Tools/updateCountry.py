@@ -63,7 +63,7 @@ for row in range(0, sheet.nrows):
         for row in record:
             id_C = int(row[0])
         
-    query = """UPDATE SLC_community_all SET ID_Country = %s WHERE email = %s and ID_Country is = 11131748"""
+    query = """UPDATE SLC_community_all SET ID_Country = %s WHERE email = %s and ID_Country = 11131748"""
     values = (id_C, email)
     cursor.execute(query, values)
 
