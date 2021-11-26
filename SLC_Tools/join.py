@@ -1,7 +1,6 @@
 import pandas as pd
 import glob
 
-
 def joinDB(directory):
     print(directory)
     files = "C:/Ruta/donde/esta/losarchivos/SCRUM/paraunir.xls"
