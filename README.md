@@ -1,6 +1,6 @@
 # APIS SLC 💚 :) [![@SamanthaRojasH](https://i.imgur.com/skj3q6L.png?2 "@SamanthaRojasH")](https://i.imgur.com/skj3q6L.png?2 "@SamanthaRojasH")
 
-Estos son scripts que he logrado desarrollar con los conocimientos adquiridos en [Platzi](https://platzi.com/ "Platzi") y  en otras fuentes de conocimiento. Está desarrollado con python y su respectiva conexión a mysql en el lenguaje Python con conexión a MySQL. Este proyecto fue desarrollado para contribuir con mi trabajo como voluntaria en la comunidad Scrum Latam, a la cual me siento muy orgullosa de pertenecer.
+Estos son scripts que he logrado desarrollar con los conocimientos adquiridos en [Platzi](https://platzi.com/ "Platzi") y  en otras fuentes de conocimiento. Está desarrollado con el lenguaje Python con conexión a MySQL. Este proyecto fue desarrollado para contribuir con mi trabajo como voluntaria en la comunidad Scrum Latam, a la cual me siento muy orgullosa de pertenecer.
 
 Este proyecto realiza carga a base de datos y une archivos en formato csv.
 
