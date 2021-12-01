@@ -8,7 +8,7 @@ import db
 
 
 # Open the workbook and define the worksheetp
-filename = r"C:/Ruta/donde/esta/archivo/SCRUM/archivo_pais.xls"
+filename = r"C:/Users/saman/OneDrive/Documentos/SCRUM/REcolectCountry/Excel/Countries.xls"
 if not os.path.exists(filename):
     print("No encontré el archivo")
     sys.exit()
